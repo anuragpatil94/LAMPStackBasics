@@ -31,8 +31,8 @@ Understanding the Software Developement process with LAMP Stack.
 
 ### Starting server on boot
 
-* sudo systemctl enable apache2.service
-* sudo systemctl enable mysql.service
+* `sudo systemctl enable apache2.service`
+* `sudo systemctl enable mysql.service`
 
 ### Run PHP server in another workspace
 
