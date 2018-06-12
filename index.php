@@ -11,12 +11,12 @@
 <body>
 
 <form action="includes/signup.include.php" method="post">
-<input type="text" name="first" placeholder="Firstname"><br>
-<input type="text" name="last" placeholder="Lastname"><br>
-<input type="text" name="email" placeholder="EMail"><br>
-<input type="text" name="uid" placeholder="Username"><br>
-<input type="text" name="pwd" placeholder="Password"><br>
-<button type="submit" name="submit">Sign Up</button>
+    <input type="text" name="first" placeholder="Firstname"><br>
+    <input type="text" name="last" placeholder="Lastname"><br>
+    <input type="text" name="email" placeholder="EMail"><br>
+    <input type="text" name="uid" placeholder="Username"><br>
+    <input type="password" name="pwd" placeholder="Password"><br>
+    <button type="submit" name="submit">Sign Up</button>
 </form>
 
 </body>

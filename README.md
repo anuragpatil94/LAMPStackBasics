@@ -16,6 +16,8 @@ Understanding the Software Developement process with LAMP Stack.
     - [Login System Test](#login-system-test)
         - [Dummy Database Table](#dummy-database-table)
         - [Sign Up Form](#sign-up-form)
+        - [Avoiding SQL Injection](#avoiding-sql-injection)
+            - [Using MYSQLi](#using-mysqli)
 
 <!-- /TOC -->
 
@@ -148,4 +150,13 @@ echo $row['user_uid'] . "<br>";
 
 // Once this file is called by action method, to get back to the main page header is used
 header("Location: ../index.php?signup=success");
+```
+### Avoiding SQL Injection
+
+#### Using MYSQLi
+
+```PHP
+
+$first = mysqli_real_escape_string($connection, $_POST['first']);
+
 ```
